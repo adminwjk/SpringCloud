@@ -16,7 +16,7 @@
 
 + 官网版本
 
-![image-20240926104836072](images\image-20240926104836072.png)
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926104836072.png" alt="image-20240926104836072" style="zoom:50%;" />
 
 #### （2）Springcloud版本选择
 
@@ -28,7 +28,7 @@ https://github.com/spring-cloud
 
 + 官网版本
 
-![image-20240926105130148](images\image-20240926105130148.png)
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926105130148.png" alt="image-20240926105130148" style="zoom:50%;" />
 
 + 官网看Cloud版本
 
@@ -54,7 +54,7 @@ https://github.com/spring-cloud
 约定 > 配置 > 编码
 ```
 
-![image-20240926105807749](images\image-20240926105740023.png)
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926105740023.png" alt="image-20240926105740023" style="zoom:50%;" />
 
 ### （2）IDEA新建Project和Maven父工程
 
@@ -64,27 +64,27 @@ https://github.com/spring-cloud
 
 ###### （1）新建父工程
 
-<img src="images\image-20240926111759589.png" alt="image-20240926111759589" style="zoom:50%;" />
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926111759589.png" alt="image-20240926111759589" style="zoom:50%;" />
 
 ###### （2）聚合总父工程名字
 
-<img src="images\image-20240926111936361.png" alt="image-20240926111936361" style="zoom:50%;" />
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926111936361.png" alt="image-20240926111936361" style="zoom:50%;" />
 
 ###### （3）字符编码
 
-<img src="images\image-20240926112011098.png" alt="image-20240926112011098" style="zoom:50%;" />
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926112011098.png" alt="image-20240926112011098" style="zoom:50%;" />
 
 ###### （4）注解生效激活
 
-<img src="images\image-20240926112053087.png" alt="image-20240926112053087" style="zoom:50%;" />
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926112053087.png" alt="image-20240926112053087" style="zoom:50%;" />
 
 ###### （5）java编译版本选17
 
-<img src="images\image-20240926112207398.png" alt="image-20240926112207398" style="zoom:50%;" />
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926112207398.png" alt="image-20240926112207398" style="zoom:50%;" />
 
 ###### （6）File Type过滤
 
-<img src="images\image-20240926112344054.png" alt="image-20240926112344054" style="zoom:50%;" />
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926112344054.png" alt="image-20240926112344054" style="zoom:50%;" />
 
 #### <2> 父工程POM文件内容
 
@@ -225,7 +225,7 @@ Maven 使用dependencyManagement 元素来提供了一种管理依赖版本号�
 Maven会沿着父子层次向上走，直到找到一个拥有dependencyManagement元素的项目，然后它就会使用这个dependencyManagement元素中指定的版本号。
 ```
 
-<img src="images\image-20240926112826670.png" alt="image-20240926112826670" style="zoom: 50%;" />
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926112826670.png" alt="image-20240926112826670" style="zoom: 50%;" />
 
 + 这样做的好处就是：如果有多个子项目都引用同一样依赖，则可以避免在每个使用的子项目里都声明一个版本号，优势：
 
@@ -255,7 +255,7 @@ Maven会沿着父子层次向上走，直到找到一个拥有dependencyManageme
 
 + 2 IDEA工具支持(推荐)
 
-<img src="images\image-20240926113232280.png" alt="image-20240926113232280" style="zoom:50%;" />
+<img src="C:\Users\wangj\Desktop\myselfword\SpringCloud微服务\images\image-20240926113232280.png" alt="image-20240926113232280" style="zoom:50%;" />
 
 #### <4> mysql驱动说明
 
